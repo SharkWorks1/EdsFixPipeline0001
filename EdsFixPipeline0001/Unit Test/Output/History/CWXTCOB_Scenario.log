@@ -25,24 +25,12 @@
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDTARGT---exit
- ---BNDTARGT---entry
- --->>>modName = CWXTCOB , epName = CWXTCOB
- ---openW_includeName---entry
- --->>>moduleName = CWXTCOB
-  openW: rc = 0, rs = <0X00000000>.
-  includeName: rc = 0, rs = <0X00000000>.
- ---openW_includeName---exit
-  getE: rc, count = 3, rs = <0X83000800>.
- ---closeW---entry
-  closeW: rc = 0, rs = <0X00000000>
- ---closeW---exit
- ---BNDTARGT---exit
-  2019-02-04 10:37:23  STTR245W SLPRTCOD SLPRTCOD: I\N---TARGET---entry
- module: CWXTCOB , csect: CWXTCOB , entry: CWXTCOB
+  2019-02-04 11:47:17  STTR245W SLPRTCOD SLPRTCOD: I\N---TARGET---entry
+ module: CWXTCOB , csect: CWXTCOB , entry:
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 381C8028
- ---TARGCALL---entry newTARGET: 381C8028
+ ---TARGET---exit newTARGET: 38197028
+ ---TARGCALL---entry newTARGET: 38197028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -80,11 +68,11 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 381C8098
- ---addTargetArg---workingArea: 381C8088
+ AV ptr: 38197098
+ ---addTargetArg---workingArea: 38197088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 381C8088
+ ---T addTargetArg---workingArea: 38197088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 381C8088
+ ---TARGARG--- workingArea: 38197088
